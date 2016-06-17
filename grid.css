@@ -28,14 +28,24 @@
   border: 0.1px solid #cccccc; }
 
 .container {
-  padding: 5px;
-  position: absolute;
   top: 10%;
   float: left;
   left: 17%;
   border: 0.2px solid #cccccc;
   width: 83%;
   background: white; }
+
+.dialougeContainer {
+  box-shadow: #cccccc 1px 1px 10px 1px;
+  float: left;
+  border: 0.2px solid #cccccc;
+  background: white; }
+
+.dialougeContainerHeader {
+  box-shadow: #cccccc 1px 1px 10px 1px;
+  border: 0.2px solid #cccccc;
+  background: #1aa3ff;
+  color: black; }
 
 .grid-1 {
   width: 8%; }

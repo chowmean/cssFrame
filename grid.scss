@@ -32,8 +32,6 @@
 
 .container
 {
-  padding:5px;
-  position:absolute;
   top: $navbar-height;
   float: left;
   left:$sidebarWidth;
@@ -41,6 +39,28 @@
   width:$totalWidth - $sidebarWidth;
   background:$containerBackground;
 }
+
+
+
+
+.dialougeContainer
+{
+  box-shadow: $shadow;
+  float: left;
+  border:0.2px solid $borderColor;
+  background:$backgroundSidebarColor;
+}
+
+
+.dialougeContainerHeader
+{
+
+  box-shadow: $shadow;
+  border:0.2px solid $borderColor;
+  background:$primaryColor;
+  color:black;
+}
+
 
 .grid-1
 {
