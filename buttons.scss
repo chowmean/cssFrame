@@ -1,0 +1,82 @@
+@import "colors";
+
+button {
+  background: $buttonColor;
+  border-radius:$borderRadius;
+  border: $border;
+  color:$buttonTextColor;
+  &:hover {
+    background:lighten( $buttonColor, 10% );
+    border: $border;
+
+  }
+
+  &:active {
+    background:lighten( $buttonColor, 20% );
+    border: $border;
+  }
+}
+
+
+
+.lg-btn{
+  height:$btnHeightLg;
+}
+
+.sm-btn{
+  height:$btnHeightSm;
+}
+
+.nm-btn{
+  height:$btnHeightNm;
+}
+
+.raised{
+  box-shadow: black 1px 1px 1px 1px ;
+}
+
+
+.primaryBtn
+{
+  background: #1aa3ff;
+  &:hover {
+    background:lighten( $primaryColor, 10% );
+    border: $border;
+
+  }
+
+  &:active {
+    background:lighten( $primaryColor, 20% );
+    border: $border;
+  }
+}
+
+.dangerBtn
+{
+  background: #FF5722;
+  &:hover {
+    background:lighten( $dangerColor, 10% );
+    border: $border;
+
+  }
+
+  &:active {
+    background:lighten( $dangerColor, 20% );
+    border: $border;
+  }
+}
+
+.successBtn
+{
+  background: #43A047;
+  &:hover {
+    background:lighten( $succesColor, 10% );
+    border: $border;
+
+  }
+
+  &:active {
+    background:lighten( $succesColor, 20% );
+    border: $border;
+  }
+}

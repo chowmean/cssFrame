@@ -1,0 +1,52 @@
+button {
+  background: #1aa3ff;
+  border-radius: 2px;
+  border: 0px;
+  color: white; }
+  button:hover {
+    background: #4db7ff;
+    border: 0px; }
+  button:active {
+    background: #80ccff;
+    border: 0px; }
+
+.lg-btn {
+  height: 50px; }
+
+.sm-btn {
+  height: 20px; }
+
+.nm-btn {
+  height: 35px; }
+
+.raised {
+  box-shadow: black 1px 1px 1px 1px; }
+
+.primaryBtn {
+  background: #1aa3ff; }
+  .primaryBtn:hover {
+    background: #4db7ff;
+    border: 0px; }
+  .primaryBtn:active {
+    background: #80ccff;
+    border: 0px; }
+
+.dangerBtn {
+  background: #FF5722; }
+  .dangerBtn:hover {
+    background: #ff7e55;
+    border: 0px; }
+  .dangerBtn:active {
+    background: #ffa588;
+    border: 0px; }
+
+.successBtn {
+  background: #43A047; }
+  .successBtn:hover {
+    background: #5bbb60;
+    border: 0px; }
+  .successBtn:active {
+    background: #7fca83;
+    border: 0px; }
+
+/*# sourceMappingURL=buttons.css.map */
