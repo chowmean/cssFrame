@@ -1,0 +1,20 @@
+@import "colors";
+@import "size";
+$border:1px;
+
+$borderColor:1px solid #CFD8DC;
+input {
+  background: $inputColor;
+  border-radius:$borderRadius;
+  border: $borderColor;
+  color:$inputTextColor;
+  &:hover {
+    background:darken( $inputColor, 10% );
+  }
+
+  &:active {
+    background:darken( $inputColor, 20% );
+  }
+}
+
+

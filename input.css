@@ -1,0 +1,20 @@
+.lg {
+  height: 40px; }
+
+.sm {
+  height: 20px; }
+
+.nm {
+  height: 25px; }
+
+input {
+  background: white;
+  border-radius: 2px;
+  border: 1px solid #CFD8DC;
+  color: black; }
+  input:hover {
+    background: #e6e6e6; }
+  input:active {
+    background: #cccccc; }
+
+/*# sourceMappingURL=input.css.map */

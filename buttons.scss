@@ -1,5 +1,5 @@
 @import "colors";
-
+@import "size";
 button {
   background: $buttonColor;
   border-radius:$borderRadius;
@@ -19,21 +19,15 @@ button {
 
 
 
-.lg-btn{
-  height:$btnHeightLg;
-}
-
-.sm-btn{
-  height:$btnHeightSm;
-}
-
-.nm-btn{
-  height:$btnHeightNm;
-}
 
 .raised{
-  box-shadow: black 1px 1px 1px 1px ;
+  box-shadow: black 1px 1px 01px 1px ;
+  &:active {
+    box-shadow: black 0px 0px 0px 0px ;
+
+  }
 }
+
 
 
 .primaryBtn
