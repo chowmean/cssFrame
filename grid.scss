@@ -1,0 +1,103 @@
+@import "colors";
+@import "size";
+
+
+
+
+.sidebar
+{
+  background:$backgroundSidebarColor;
+  position:fixed;
+  width:$sidebarWidth;
+  left:0px;
+  top:$navbar-height;
+  height:100%;
+  border:0.1px solid $borderColor;
+  z-index:99;
+}
+
+
+.navbar
+{
+  background:$backgroundColor;
+  position:fixed;
+  width:100%;
+  left:0px;
+  z-index:100;
+  top:0px;
+  height:$navbar-height;
+  border:0.1px solid $borderColor;
+}
+
+
+.container
+{
+  padding:5px;
+  position:absolute;
+  top: $navbar-height;
+  float: left;
+  left:$sidebarWidth;
+  border:0.2px solid $borderColor;
+  width:$totalWidth - $sidebarWidth;
+  background:$containerBackground;
+}
+
+.grid-1
+{
+  width: 1 * $gwidth;
+}
+
+.grid-2
+{
+  width: 2 * $gwidth;
+}
+
+.grid-3
+{
+  width: 3 * $gwidth;
+}
+
+.grid-5
+{
+  width: 5 * $gwidth;
+}
+
+.grid-4
+{
+  width: 4 * $gwidth;
+}
+
+.grid-6
+{
+  width: 6 * $gwidth;
+}
+
+.grid-7
+{
+  width: 7 * $gwidth;
+}
+
+.grid-8
+{
+  width: 8 * $gwidth;
+}
+
+.grid-9
+{
+  width: 9 * $gwidth;
+}
+
+.grid-10
+{
+  width: 7 * $gwidth;
+}
+
+.grid-11
+{
+  width: 8 * $gwidth;
+}
+
+.grid-12
+{
+  width: 9 * $gwidth;
+}

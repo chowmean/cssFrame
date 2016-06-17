@@ -1,0 +1,76 @@
+.lg {
+  height: 40px; }
+
+.sm {
+  height: 20px; }
+
+.nm {
+  height: 25px; }
+
+.sidebar {
+  background: white;
+  position: fixed;
+  width: 17%;
+  left: 0px;
+  top: 10%;
+  height: 100%;
+  border: 0.1px solid #cccccc;
+  z-index: 99; }
+
+.navbar {
+  background: #F5F5F5;
+  position: fixed;
+  width: 100%;
+  left: 0px;
+  z-index: 100;
+  top: 0px;
+  height: 10%;
+  border: 0.1px solid #cccccc; }
+
+.container {
+  padding: 5px;
+  position: absolute;
+  top: 10%;
+  float: left;
+  left: 17%;
+  border: 0.2px solid #cccccc;
+  width: 83%;
+  background: white; }
+
+.grid-1 {
+  width: 8%; }
+
+.grid-2 {
+  width: 16%; }
+
+.grid-3 {
+  width: 24%; }
+
+.grid-5 {
+  width: 40%; }
+
+.grid-4 {
+  width: 32%; }
+
+.grid-6 {
+  width: 48%; }
+
+.grid-7 {
+  width: 56%; }
+
+.grid-8 {
+  width: 64%; }
+
+.grid-9 {
+  width: 72%; }
+
+.grid-10 {
+  width: 56%; }
+
+.grid-11 {
+  width: 64%; }
+
+.grid-12 {
+  width: 72%; }
+
+/*# sourceMappingURL=grid.css.map */
