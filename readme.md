@@ -27,3 +27,22 @@ It is a simple framework consist of classes for making user interface. It consis
 
 
 These can be combined with button to make different kind of buttons
+
+
+#### Grid Classes
+
+* .sidebar: Class for making Empty sidebar.
+
+* .navbar: Class for making Empty Navbar.
+
+* .container: Class for making Empty Container.
+
+* .dialougeContainer: Class for making a dialouge conatianer.
+
+* .dialougeContainerHeader: Header of the dialouge.
+
+* .grid-n: grid of size n  [1 - 12].
+
+#### Input Classes
+
+* input: Tag simple input tag modified for the better look.
